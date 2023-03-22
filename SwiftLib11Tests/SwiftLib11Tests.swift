@@ -10,7 +10,9 @@ import XCTest
 
 class SwiftLib11Tests: XCTestCase {
 
+    var swiftLib: SwiftyLib!
     override func setUpWithError() throws {
+        swiftLib = SwiftyLib()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
@@ -18,6 +20,9 @@ class SwiftLib11Tests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func testAdd() {
+        XCTAssertEqual(swiftLib.add(a: 5, b: 4), 9)
+    }
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

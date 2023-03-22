@@ -18,6 +18,7 @@
 		8AAAAE8829CACE8C00B4D442 /* SwiftLib11Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAAE8629CACE8C00B4D442 /* SwiftLib11Example.xcdatamodeld */; };
 		8AAAAE8A29CACE8D00B4D442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAAAE8929CACE8D00B4D442 /* Assets.xcassets */; };
 		8AAAAE8D29CACE8D00B4D442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAAAE8B29CACE8D00B4D442 /* LaunchScreen.storyboard */; };
+		8AAAAEAF29CAD26600B4D442 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAAEAE29CAD26600B4D442 /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8AAAAE8E29CACE8D00B4D442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AAAAE9329CACE8D00B4D442 /* SwiftLib11ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLib11ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAAAE9D29CACE8D00B4D442 /* SwiftLib11ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLib11ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAAAEAE29CAD26600B4D442 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				8AAAAE6029CACE5D00B4D442 /* SwiftLib11.h */,
 				8AAAAE6129CACE5D00B4D442 /* SwiftLib11.docc */,
+				8AAAAEAE29CAD26600B4D442 /* SwiftyLib.swift */,
 			);
 			path = SwiftLib11;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AAAAE6229CACE5D00B4D442 /* SwiftLib11.docc in Sources */,
+				8AAAAEAF29CAD26600B4D442 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +617,7 @@
 		8AAAAE7529CACE5D00B4D442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MXZ3WQPV6;
@@ -629,6 +634,7 @@
 		8AAAAE7629CACE5D00B4D442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MXZ3WQPV6;
